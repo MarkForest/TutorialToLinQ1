@@ -22,8 +22,6 @@ namespace ConsoleApp1
         public string Company { get; set; }
     }
 
-
-
     class Program
     {
         static void Main(string[] args)
@@ -42,8 +40,6 @@ namespace ConsoleApp1
 
             string[] soft = { "Microsoft", "Google", "Apple" };
             string[] hard = { "Apple", "IBM", "Samsung" };
-
-
             int[] numbers = { 1, 2, 4, 5, 6, 65, 76, 23, 46, 68, 244 };
             string[] teams = { "Бавария","Борусия", "Реал Мадрид", "Манчестер Сити", "ПСЖ", "Барселона"};
 
@@ -65,6 +61,28 @@ namespace ConsoleApp1
             MethodeLinQ9(soft, hard);
             Console.WriteLine("----------Удаление дубликатов-----------");
             MethodeLinQ10(soft, hard);
+            Console.WriteLine("----------Агрегатные операции-----------");
+            Console.WriteLine("----------Метод Agrgregate-----------");
+            MethodeLinQ11(numbers);
+            Console.WriteLine("----------Получение размера выборки. Метод Count-----------");
+            MethodeLinQ12(numbers);
+            Console.WriteLine("----------Получение суммы-----------");
+            MethodeLinQ13(numbers, users2);
+            Console.WriteLine("----------Максимальные, минимальные, Среднее значение-----------");
+            MethodeLinQ14(numbers, users2);
+            Console.WriteLine("----------Методы Take-----------");
+            MethodeLinQ15(numbers);
+            Console.WriteLine("----------Методы Skip-----------");
+            MethodeLinQ16(numbers);
+            Console.WriteLine("----------Методы Take & Skip-----------");
+            MethodeLinQ17(numbers);
+            Console.WriteLine("----------Методы TakeWhile-----------");
+            MethodeLinQ18(teams);
+            Console.WriteLine("----------Методы SkipWhile-----------");
+            MethodeLinQ19(teams);
+
+
+
 
         }
         //Основы LINQ
@@ -226,10 +244,51 @@ namespace ConsoleApp1
                 Console.WriteLine(item);
             }
         }
-
-
-
-
+        //Метод Agrgregate
+        private static void MethodeLinQ11(int[] numbers)
+        {
+            
+        }
+        //Получение размера выборки.Метод Count
+        private static void MethodeLinQ12(int[] numbers)
+        {
+            
+        }
+        //Получение суммы
+        private static void MethodeLinQ13(int[] numbers, List<User> users2)
+        {
+            
+        }
+        //Максимальные, минимальные, Среднее значение
+        private static void MethodeLinQ14(int[] numbers, List<User> users2)
+        {
+           
+        }
+        //Методы Take
+        private static void MethodeLinQ15(int[] numbers)
+        {
+           
+        }
+        //Методы Skip
+        private static void MethodeLinQ16(int[] numbers)
+        {
+            
+        }
+        //Методы Take & Skip
+        private static void MethodeLinQ17(int[] numbers)
+        {
+            
+        }
+        //Методы TakeWhile
+        private static void MethodeLinQ18(string[] teams)
+        {
+            
+        }
+        //Методы SkipWhile
+        private static void MethodeLinQ19(string[] teams)
+        {
+           
+        }
     }
 
 
